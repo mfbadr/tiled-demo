@@ -3,6 +3,9 @@
  <tileset firstgid="1" name="desert" tilewidth="32" tileheight="32" spacing="1" margin="1">
   <image source="tmw_desert_spacing.png" width="265" height="199"/>
  </tileset>
+ <tileset firstgid="49" name="Coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
  <layer name="Background" width="32" height="10">
   <data encoding="base64" compression="zlib">
    eJyTY2BgkBvFo3gUj+IRiAEVgiWB
@@ -15,7 +18,134 @@
  </layer>
  <layer name="plants" width="32" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvkKezfQMFYP7Uh9LqBNTrE5CnJqCnXaBwIOR3egF8aY9WYWJAI3MJAWx+RRZDjpPh5ndSAADJbwJ7
+   eJxjYKAvkMcjp0c3V5AHSHEfzJ/6UFodSksCsRQQS6Op12egHWCD2gnCukCsBMTKNLQPGYDCgQ9qJzKml/0gIAbEWlCsisN+WoW/ARpfEYf91AbY8pk8Dvvp5XcGHPbTE2gyQNKBNpQPAOPrBnI=
   </data>
  </layer>
+ <layer name="Ground" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6AE0g1gJibShfaYAxAGJvBL8=
+  </data>
+ </layer>
+ <objectgroup name="Money">
+  <object gid="49" x="122.76" y="180.2" rotation="-294.835">
+   <properties>
+    <property name="alpha" value="0.5"/>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="639.891" y="245.963" rotation="-31.0834">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="315.488" y="267.946" rotation="-47.0791">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="498.667" y="126.667">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="226.667" y="138.667">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="781.333" y="260">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="686.897" y="163.67" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="946.189" y="70.999" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="309.626" y="173.249" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="464.721" y="228.053" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="454.22" y="98.6195" rotation="-51.7824">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="403.255" y="211.194" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="577.701" y="181.846" rotation="-0.442249">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="528" y="228">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="548" y="94.6667">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="124" y="100">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+  <object gid="49" x="402.667" y="224">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+    <property name="rotation" value="75"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
